@@ -56,7 +56,7 @@ public class BaseBallTeam {
     }
 
     public double getRate() {
-        double rate = win / (win + lose);
+        double rate = (double)win / (win + lose);
         return rate;
 
     }
